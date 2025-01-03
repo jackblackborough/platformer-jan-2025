@@ -48,7 +48,6 @@ playerIsJumping = false;
 playerJumpForce = -5;
 playerJumps = 0;
 playerMaxJumps = 2;
-maxPlayerJumpForce = 0.8
 
 // Damage and iFrames
 playerIFramesCounter = 0;

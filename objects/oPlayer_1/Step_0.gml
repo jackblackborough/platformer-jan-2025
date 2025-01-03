@@ -1,23 +1,3 @@
-
-if keyboard_check_pressed(vk_control)&&sprite_index = playerSpriteJump
-{
-	playerSpeedY = 0.5
-	playerJumpForce++
-}
-
-if playerJumpForce>maxPlayerJumpForce
-{
-	playerJumpForce = maxPlayerJumpForce
-}
-
-if not  keyboard_check_pressed(vk_alt)&&sprite_index = playerSpriteJump
-{
-	playerJumpForce = playerJumpForce
-	playerSpeedY = playerSpeedY
-}
-
-
-
 // Variables for object
 
 // showDebug = boolean (Show movement limits, slide target / dash target etc)

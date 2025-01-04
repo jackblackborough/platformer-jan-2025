@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"oGround2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"propertyId":{"name":"sprite","path":"objects/oGround/oGround.yy",},"resource":{"name":"spriteBlack","path":"sprites/spriteBlack/spriteBlack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spriteBlack",},
+  ],
   "parent":{
     "name":"MyFolder",
     "path":"folders/MyFolder.yy",

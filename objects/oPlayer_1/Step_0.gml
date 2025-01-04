@@ -1,6 +1,11 @@
 // Variables for object
 
 // showDebug = boolean (Show movement limits, slide target / dash target etc)
+if keyboard_check_pressed(vk_control)
+{
+  game_restart()	
+}
+
 
 getPlayerInput();
 

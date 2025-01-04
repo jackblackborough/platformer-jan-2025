@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sPlayerActivatedJumpThroughPlatform_1",
   "bboxMode":0,
-  "bbox_bottom":13,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":4,
   "gridY":4,
-  "height":16,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5d388041-0b95-4e17-987f-59abf564acd0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"5d388041-0b95-4e17-987f-59abf564acd0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -106,5 +106,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":32,
 }

@@ -1,8 +1,13 @@
+if keyboard_check_pressed(vk_control)
+{
+  game_restart()	
+}
 
-if keyboard_check_pressed(vk_control)&&sprite_index = playerSpriteJump
+
+if keyboard_check_pressed(vk_down)&&sprite_index = playerSpriteJump
 {
 	playerSpeedY = 0.5
-	playerJumpForce++
+	playerJumpForce--
 }
 
 if playerJumpForce>maxPlayerJumpForce

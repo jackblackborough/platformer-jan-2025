@@ -11,7 +11,10 @@
     "name":"MyFolder",
     "path":"folders/MyFolder.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oPlayerActivatedJumpThroughPlatform",
+    "path":"objects/oPlayerActivatedJumpThroughPlatform/oPlayerActivatedJumpThroughPlatform.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,8 +29,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sPlayerActivatedJumpThroughPlatform","path":"sprites/sPlayerActivatedJumpThroughPlatform/sPlayerActivatedJumpThroughPlatform.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sPlayerActivatedJumpThroughPlatform","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"spriteActive","filters":[],"listItems":[],"multiselect":false,"name":"spriteActive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sPlayerActivatedJumpThroughPlatformActive","path":"sprites/sPlayerActivatedJumpThroughPlatformActive/sPlayerActivatedJumpThroughPlatformActive.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sPlayerActivatedJumpThroughPlatformActive","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Sprite34","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"spriteActive","filters":[],"listItems":[],"multiselect":false,"name":"spriteActive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sPlayerActivatedJumpThroughPlatform_1","path":"sprites/sPlayerActivatedJumpThroughPlatform_1/sPlayerActivatedJumpThroughPlatform_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sPlayerActivatedJumpThroughPlatform_1","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

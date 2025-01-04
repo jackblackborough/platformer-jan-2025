@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"oJumpThroughPlatform_1",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oJumpThroughPlatform","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"propertyId":{"name":"sprite","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"resource":{"name":"sJumpThroughPlatform_1","path":"sprites/sJumpThroughPlatform_1/sJumpThroughPlatform_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sJumpThroughPlatform_1",},
+  ],
   "parent":{
     "name":"MyFolder",
     "path":"folders/MyFolder.yy",
@@ -26,11 +28,14 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
-  "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sJumpThroughPlatform","path":"sprites/sJumpThroughPlatform/sJumpThroughPlatform.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sJumpThroughPlatform","varType":5,},
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":32.0,"y":0.0,},
+    {"x":32.0,"y":32.0,},
+    {"x":0.0,"y":32.0,},
   ],
+  "physicsStartAwake":true,
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

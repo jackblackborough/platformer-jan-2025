@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSolidMovingPlatform",
-    "path":"sprites/sSolidMovingPlatform/sSolidMovingPlatform.yy",
+    "name":"sJumpThroughPlatform_1",
+    "path":"sprites/sJumpThroughPlatform_1/sJumpThroughPlatform_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

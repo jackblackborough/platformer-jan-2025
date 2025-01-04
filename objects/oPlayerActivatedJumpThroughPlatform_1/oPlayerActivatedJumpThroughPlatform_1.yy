@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerActivatedJumpThroughPlatform",
-    "path":"sprites/sPlayerActivatedJumpThroughPlatform/sPlayerActivatedJumpThroughPlatform.yy",
+    "name":"sPlayerActivatedJumpThroughPlatform_1",
+    "path":"sprites/sPlayerActivatedJumpThroughPlatform_1/sPlayerActivatedJumpThroughPlatform_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

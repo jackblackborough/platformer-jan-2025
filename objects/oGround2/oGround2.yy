@@ -1,14 +1,10 @@
 {
   "$GMObject":"",
-  "%Name":"oGround_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oGround2",
+  "eventList":[],
   "managed":true,
-  "name":"oGround_1",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"propertyId":{"name":"sprite","path":"objects/oGround/oGround.yy",},"resource":{"name":"sGround_1","path":"sprites/sGround_1/sGround_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sGround_1",},
-  ],
+  "name":"oGround2",
+  "overriddenProperties":[],
   "parent":{
     "name":"MyFolder",
     "path":"folders/MyFolder.yy",
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sGround_1",
-    "path":"sprites/sGround_1/sGround_1.yy",
+    "name":"spriteBlack",
+    "path":"sprites/spriteBlack/spriteBlack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -4,23 +4,15 @@ if keyboard_check_pressed(vk_control)
 }
 
 
-if keyboard_check_pressed(vk_down)&&sprite_index = playerSpriteJump
+if keyboard_check_pressed(vk_down) && sprite_index == playerSpriteJump
 {
-	playerSpeedY = 0.5
-	playerJumpForce--
+	playerJumpForce = -10;
 }
 
-if playerJumpForce>maxPlayerJumpForce
+if playerJumpForce > maxPlayerJumpForce
 {
 	playerJumpForce = maxPlayerJumpForce
 }
-
-if not  keyboard_check_pressed(vk_alt)&&sprite_index = playerSpriteJump
-{
-	playerJumpForce = playerJumpForce
-	playerSpeedY = playerSpeedY
-}
-
 
 
 // Variables for object

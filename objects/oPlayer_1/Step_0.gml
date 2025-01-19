@@ -4,25 +4,17 @@
 
 
 
-
+if place_meeting(x, y, MaxHealthPickup)
+{
+	playerMaxHealth += 100
+	instance_destroy(MaxHealthPickup)
+}
 
 
 if playerHealth > playerMaxHealth
 {
 	 playerHealth = playerMaxHealth
 }
-
-if place_meeting(x, y, MaxHealthPickup)
-{
-    playerHealth += 20
-	playerMaxHealth += 20
-	instance_destroy(MaxHealthPickup)
-}
-
-
-
-
-
 
 if keyboard_check_pressed(vk_control)
 {

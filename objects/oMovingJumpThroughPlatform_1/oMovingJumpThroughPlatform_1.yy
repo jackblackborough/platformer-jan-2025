@@ -13,7 +13,10 @@
     "name":"MyFolder",
     "path":"folders/MyFolder.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oMovingJumpThroughPlatform",
+    "path":"objects/oMovingJumpThroughPlatform/oMovingJumpThroughPlatform.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -41,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMovingJumpThroughPlatform",
-    "path":"sprites/sMovingJumpThroughPlatform/sMovingJumpThroughPlatform.yy",
+    "name":"sJumpThroughPlatform_1",
+    "path":"sprites/sJumpThroughPlatform_1/sJumpThroughPlatform_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

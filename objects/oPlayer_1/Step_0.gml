@@ -1,11 +1,44 @@
 // Variables for object
 
 // showDebug = boolean (Show movement limits, slide target / dash target etc)
+
+
+
+
+
+
+if playerHealth > playerMaxHealth
+{
+	 playerHealth = playerMaxHealth
+}
+
+if place_meeting(x, y, MaxHealthPickup)
+{
+    playerHealth += 20
+	playerMaxHealth += 20
+	instance_destroy(MaxHealthPickup)
+}
+
+
+
+
+
+
 if keyboard_check_pressed(vk_control)
 {
   game_restart()	
 }
 
+
+//if keyboard_check_pressed(vk_down) && sprite_index == playerSpriteJump
+//{
+//	playerJumpForce = -10;
+//}
+
+//if playerJumpForce > maxPlayerJumpForce
+//{
+//	playerJumpForce = maxPlayerJumpForce
+//}
 
 getPlayerInput();
 

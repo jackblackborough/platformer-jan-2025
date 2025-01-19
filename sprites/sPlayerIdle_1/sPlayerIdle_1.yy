@@ -41,7 +41,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sPlayerIdle",
+    "%Name":"sPlayerIdle_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sPlayerIdle",
+    "name":"sPlayerIdle_1",
     "playback":1,
     "playbackSpeed":8.0,
     "playbackSpeedType":0,
